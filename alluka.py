@@ -143,5 +143,5 @@ if prompt := st.chat_input("Como posso ajudar? "):
     else:
         print("Latitude e longitude não encontradas na resposta.")
 
-# Save chat history after each interaction
-save_chat_history(st.session_state.messages)
+# Salve o histórico do chat a cada interação
+# save_chat_history(st.session_state.messages)
